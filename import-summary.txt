@@ -1,0 +1,136 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* Thumbs.db
+* Z\
+* Z\Note_view_slide_pager.java
+* Z\Note_view_slide_pager_UIL.java
+* Z\Z_Ref.txt
+* Z\Z_basic.txt
+* Z\Z_notice
+* Z\Z_version.txt
+* Z\icon20140501\
+* Z\icon20140501\Thumbs.db
+* Z\icon20140501\copy2_ic_launcher.png
+* Z\icon20140501\copy_ic_launcher.png
+* Z\icon20140501\ic_launcher-web_test1.png
+* Z\icon20140501\ic_launcher-web_test2.png
+* Z\icon20140501\ic_launcher4-web.png
+* Z\icon20140501\複製 -ic_launcher-web.PNG
+* Z\icon20140501\複製 -ic_launcher-web_test1.png
+* Z\icon20140502\
+* Z\icon20140502\HDPI_72x72\
+* Z\icon20140502\HDPI_72x72\ic_launcher.png
+* Z\icon20140502\MDPI_48x48\
+* Z\icon20140502\MDPI_48x48\ic_launcher.png
+* Z\icon20140502\Thumbs.db
+* Z\icon20140502\Web_512x512\
+* Z\icon20140502\Web_512x512\ic_launcher-web.png
+* Z\icon20140502\XHDPI_96x96\
+* Z\icon20140502\XHDPI_96x96\ic_launcher.png
+* Z\icon20140502\XXHDPI_144x144\
+* Z\icon20140502\XXHDPI_144x144\ic_launcher.png
+* Z\icon20140502\ic_launcher-web.png
+* Z\icon20140511\
+* Z\icon20140511\A.png
+* Z\icon20140511\B.png
+* Z\icon20140511\C.png
+* Z\icon20140511\HDPI_72x72\
+* Z\icon20140511\HDPI_72x72\Thumbs.db
+* Z\icon20140511\HDPI_72x72\ic_launcher.png
+* Z\icon20140511\MDPI_48x48\
+* Z\icon20140511\MDPI_48x48\Thumbs.db
+* Z\icon20140511\MDPI_48x48\ic_launcher.png
+* Z\icon20140511\Thumbs.db
+* Z\icon20140511\Web_512x512\
+* Z\icon20140511\Web_512x512\Thumbs.db
+* Z\icon20140511\Web_512x512\ic_launcher-web.png
+* Z\icon20140511\XHDPI_96x96\
+* Z\icon20140511\XHDPI_96x96\Thumbs.db
+* Z\icon20140511\XHDPI_96x96\ic_launcher.png
+* Z\icon20140511\XXHDPI_144x144\
+* Z\icon20140511\XXHDPI_144x144\Thumbs.db
+* Z\icon20140511\XXHDPI_144x144\ic_launcher.png
+* Z\icon20140511\ic_launcher-web07.png
+* Z\icon20140511\ic_launcher-web08.png
+* Z\icon20140511\ic_launcher-web09.png
+* Z\icon20140517\
+* Z\icon20140517\HDPI_72x72\
+* Z\icon20140517\HDPI_72x72\Thumbs.db
+* Z\icon20140517\HDPI_72x72\ic_launcher.png
+* Z\icon20140517\MDPI_48x48\
+* Z\icon20140517\MDPI_48x48\Thumbs.db
+* Z\icon20140517\MDPI_48x48\ic_launcher.png
+* Z\icon20140517\Thumbs.db
+* Z\icon20140517\Web_512x512\
+* Z\icon20140517\Web_512x512\Thumbs.db
+* Z\icon20140517\Web_512x512\ic_launcher-web.png
+* Z\icon20140517\XHDPI_96x96\
+* Z\icon20140517\XHDPI_96x96\Thumbs.db
+* Z\icon20140517\XHDPI_96x96\ic_launcher.png
+* Z\icon20140517\XXHDPI_144x144\
+* Z\icon20140517\XXHDPI_144x144\Thumbs.db
+* Z\icon20140517\XXHDPI_144x144\ic_launcher.png
+* Z\icon20140517\backGround.png
+* Z\icon20140517\backGround01.png
+* Z\icon20140517\backGround02.png
+* Z\icon20140517\bg_03.png
+* Z\icon20140517\bg_04.png
+* Z\icon20140517\comp_holes.png
+* Z\icon20140517\comp_pencil.png
+* Z\icon20140517\foreGround01.png
+* Z\icon20140517\foreGround02.png
+* Z\icon20140517\ic_launcher-web01.png
+* Z\icon20140517\ic_launcher-web02.png
+* Z\icon20140517\ic_launcher-web03.png
+* Z\icon20140517\ic_launcher-web04.png
+* Z\icon20140517\ic_launcher-web05.png
+* Z\icon20140517\ic_launcher-web06.png
+* Z\icon20140517\ic_launcher-web07.png
+* Z\icon20140517\ic_launcher-web08.png
+* Z\icon20140517\ic_launcher-web09.png
+* Z\icon20140517\ic_launcher-web10.png
+* Z\icon20140517\ic_launcher-web11.png
+* Z\icon20140517\ic_launcher-web12.png
+* Z\old\
+* Z\old\footer.xml
+* Z\old\text_cursor.xml
+* Z\old\themes.xml
+* docs\
+* docs\support-v4-r7-javadoc.jar
+* docs\support-v4-r7-sources.jar
+* ic_launcher-web.PNG
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* libs\android-support-v13.jar => app\libs\android-support-v13.jar
+* libs\universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar => app\libs\universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

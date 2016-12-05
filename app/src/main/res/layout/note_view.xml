@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	 
+	<LinearLayout android:id="@+id/view_page"
+	    android:layout_width="match_parent"
+       	android:layout_height="0dp"
+    	android:layout_weight="1" 
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView android:id="@+id/view_title"
+            style="?android:textAppearanceLarge"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView 
+            android:id="@+id/view_body"
+            style="?android:textAppearanceMedium"
+            android:lineSpacingMultiplier="1.2"
+            android:paddingLeft="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:layout_marginBottom="16dp" 
+            />
+       <TextView
+	        android:id="@+id/textTime"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="right" 
+      		/>
+
+    </LinearLayout>
+	 
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    <Button
+	        android:id="@+id/view_back"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@+string/view_note_button_back" />
+	    <Button
+	        android:id="@+id/view_send"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@+string/config_mail_notes_btn" />
+	    <Button
+	        android:id="@+id/view_edit"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@+string/view_note_button_edit" />
+	</LinearLayout>
+
+</LinearLayout>

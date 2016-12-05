@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cwc.litenote"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-feature android:name="android.hardware.camera" />
+	<uses-feature android:name="android.hardware.camera.autofocus" />    
+    <application
+        android:name=".UilApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.cwc.litenote.TabsHost"
+            android:label="@string/app_name" 
+            android:theme="@style/CustomTheme">
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.cwc.litenote.TabsHost" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cwc.litenote.Note_addNew" />
+        <activity android:name="com.cwc.litenote.Note_edit" />
+        <activity android:name="com.cwc.litenote.Note_view" />
+        <activity android:name="com.cwc.litenote.Note_view_pager" />
+        <activity android:name="com.cwc.litenote.ViewFile" />
+        <activity android:name="com.cwc.litenote.ConfigAct" android:label="@string/settings"/>
+        <activity android:name="com.cwc.litenote.SendMailAct" />
+        <activity android:name="com.cwc.litenote.ExportToSDCardAct" />
+        <activity android:name="com.cwc.litenote.ImportFromSDCardAct" />
+        <receiver
+            android:name="com.cwc.litenote.DeleteFileAlarmReceiver"
+            android:enabled="true"
+             >
+   		</receiver>     
+   </application>
+
+</manifest>
+<!-- 
+        android:theme="@style/AppTheme" >
+            android:theme="@style/CustomTheme">
+
+ -->

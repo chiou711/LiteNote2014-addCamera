@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/container"
+	android:orientation="vertical" 
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<ImageView 
+		    android:layout_width="20dp"
+			android:layout_height="20dp" 
+			android:src="@android:drawable/ic_menu_edit" 
+			/>
+		<TextView 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@+string/edit_note_dlg_title" />
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="50dp">
+	<EditText android:id="@+id/edit_title" 
+		  	android:layout_width="0dp"
+			android:layout_height="50sp"
+			android:layout_weight="1"
+		    android:textCursorDrawable="@null"
+		    android:inputType=""
+		    android:textSize="18sp"
+		    android:minLines="2"
+		    android:maxLines="5"
+		    android:gravity="top"
+			/>
+	<ImageView
+          android:id="@+id/edit_picture"
+          android:layout_width="50dp"
+          android:layout_height="match_parent"
+          android:paddingRight="5dp"
+          android:contentDescription="ImageView"/>
+	</LinearLayout>
+			
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	<ImageView 
+	    android:layout_width="20dp"
+		android:layout_height="20dp" 
+		android:src="@android:drawable/ic_menu_edit" 
+		/>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@+string/edit_note_dlg_body" />
+	</LinearLayout>
+	
+	<EditText android:id="@+id/edit_body" android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:textCursorDrawable="@null"
+	    android:inputType=""
+	    android:minLines="2"
+	    android:autoLink="all"
+	    android:textSize="18sp"
+		android:scrollbars="vertical"
+		android:gravity="top"
+		/>
+
+	<ImageView
+        android:id="@+id/expanded_image"
+        android:layout_width="match_parent"
+		android:layout_height="match_parent"
+        android:visibility="gone"
+        android:scaleType="fitXY"
+        android:contentDescription="description_zoom_touch_close" />
+		
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    <Button
+	        android:id="@+id/note_add_new_cancel"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@+string/edit_note_button_back" />
+	     <Button
+	        android:id="@+id/note_add_new_add"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@+string/add_new_note_button_add" />
+	</LinearLayout>
+
+</LinearLayout>

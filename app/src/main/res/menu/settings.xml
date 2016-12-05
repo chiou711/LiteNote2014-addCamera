@@ -1,0 +1,78 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   <item
+        android:id="@+id/ADD_NEW_NOTE"
+        android:orderInCategory="0"
+        android:showAsAction="always"
+        android:title="Add New Note"/>
+  <item
+        android:id="@+id/TAKE_PICTURE"
+        android:orderInCategory="0"
+        android:showAsAction="always"
+        android:title="Take Picture"/>
+   <item
+        android:id="@+id/HANDLE_CHECKED_NOTES"
+        android:orderInCategory="0"
+        android:showAsAction="always"
+        android:title="Handle Checked Notes"/>
+   <item
+        android:id="@+id/CHECK_ALL"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="Checked All"/>
+   <item
+        android:id="@+id/UNCHECK_ALL"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:title="Unchecked All"/>
+   <item
+        android:id="@+id/MOVE_CHECKED_NOTE"
+        android:orderInCategory="3"
+        android:showAsAction="always"
+        android:title="Move to"/>  
+   <item
+        android:id="@+id/COPY_CHECKED_NOTE"
+        android:orderInCategory="4"
+        android:showAsAction="always"
+        android:title="Copy checked Note"/>
+   <item
+        android:id="@+id/MAIL_CHECKED_NOTE"
+        android:orderInCategory="5"
+        android:showAsAction="always"
+        android:title="Mail checked Note"/>      
+   <item
+        android:id="@+id/DELETE_CHECKED_NOTE"
+        android:orderInCategory="6"
+        android:showAsAction="always"
+        android:title="Delete checked Note"/>
+   <item
+        android:id="@+id/ADD_NEW_PAGE"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="Add New Page"/>
+   <item
+        android:id="@+id/CHANGE_PAGE_COLOR"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="Change Page Color"/>
+   <item
+        android:id="@+id/SHIFT_PAGE"
+        android:orderInCategory="3"
+        android:showAsAction="never"
+        android:title="Shift Page"/>
+   <item
+        android:id="@+id/SHOW_BODY"
+        android:orderInCategory="4"
+        android:showAsAction="never"
+        android:title="Show Body"/>
+   <item
+        android:id="@+id/SEND_PAGES"
+        android:orderInCategory="5"
+        android:showAsAction="never"
+        android:title="Send Pages"/>   
+   <item
+        android:id="@+id/CONFIG_PREF"
+        android:orderInCategory="6"
+        android:showAsAction="never"
+        android:title="Config"/>
+
+</menu>

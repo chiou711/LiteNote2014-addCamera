@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+    <LinearLayout android:id="@+id/text_whole"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical">
+        
+    <LinearLayout android:id="@+id/text_title_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/img_check"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="0dp"
+        android:contentDescription="img_check"/> 
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="5dp"
+        android:minHeight="50dp"
+        android:maxLines="1"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@+string/note_text"
+        android:gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+      	/>
+
+    <ImageView
+        android:id="@+id/img_picture"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:paddingTop="3dp"
+        android:layout_marginRight="0dp"
+        android:contentDescription="img_picture"/> 
+
+    <ImageView
+        android:id="@+id/img_dragger"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="0dp"
+        android:src="@+drawable/ic_menu_goto" 
+        android:contentDescription="@string/drag_handler"/>
+    </LinearLayout>
+     
+   	<TextView
+        android:id="@+id/text_body"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:maxLines="3"
+        android:paddingLeft="15dp"
+        android:layout_gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+      	/>
+   
+   	<TextView
+        android:id="@+id/text_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right" 
+        android:paddingRight="15dp"
+      	/>
+   
+   </LinearLayout>
+</LinearLayout>
